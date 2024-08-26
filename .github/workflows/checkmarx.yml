@@ -41,7 +41,7 @@ jobs:
       uses: checkmarx-ts/checkmarx-cxflow-github-action@49d8269b14ca87910ba003d47a31fa0c7a11f2fe
       with:
         project: 'Totally Secure App - GitHub Action'
-        team: 'CxServer\SP\America\checkmarx.com - 1'
+        team: '\CxServer\SP\America\checkmarx.com - 1'
         checkmarx_url: https://cxprivatecloud.checkmarx.net
         checkmarx_username: ${{ secrets.CHECKMARX_USERNAME }}
         checkmarx_password: ${{ secrets.CHECKMARX_PASSWORD }}
